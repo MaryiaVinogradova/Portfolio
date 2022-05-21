@@ -1,0 +1,32 @@
+.foot-center{
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-around;
+}
+#container-footer{
+  display: flex;
+  flex-wrap: wrap;
+  max-width: 75%;
+  align-items: center;
+  justify-content: center;
+
+}
+
+.footer-row{
+  justify-content: center;
+}
+
+#icon{
+  font-size: 40px;
+  color: rgb(142, 151, 155);
+  text-align: center;
+  margin-left: 200px;
+  margin-right: 200px;
+ 
+}
+.footer-center{
+  justify-content: space-around;
+  align-items: center;
+}
+
+

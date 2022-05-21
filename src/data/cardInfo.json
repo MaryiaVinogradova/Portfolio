@@ -1,0 +1,30 @@
+[
+  {
+      "imgPath": "./images/1.png",
+      "title": "Note Tracker",
+      "deployedPath": "https://note-tracker-app-mv.herokuapp.com/",
+      "githubPath": "https://github.com/MaryiaVinogradova/Note-tracker.git",
+      "tech": "MySql"
+  },
+  {
+      "imgPath": "./images/2.png",
+      "title": "Weather Dashboard",
+      "deployedPath": "https://github.com/MaryiaVinogradova/Weather-dashboard.git",
+      "githubPath": "https://github.com/MaryiaVinogradova/Weather-dashboard.git",
+      "tech": "Bootstrap/ API"
+  },
+  {
+      "imgPath": "./images/3.png",
+      "title": "E-Commerce-Back-End",
+      "deployedPath": "https://github.com/MaryiaVinogradova/E-Commerce-Back-End.git",
+      "githubPath": "https://github.com/MaryiaVinogradova/E-Commerce-Back-End.git",
+      "tech": "MySql/ API routs"
+  },
+  {
+      "imgPath": "./images/4.png",
+      "title": "Social-Network-API-NoSql",
+      "deployedPath": "https://github.com/MaryiaVinogradova/Social-Network-API-NoSQL.git",
+      "githubPath": "https://github.com/MaryiaVinogradova/Social-Network-API-NoSQL.git",
+      "tech": "MongoDB"
+  }
+]
