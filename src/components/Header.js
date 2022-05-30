@@ -27,8 +27,8 @@ function Header({ currentPage, changeFunction }) {
 
       <li class="b-nav-item">
       <a style={headerStyle.anchors}
-        onClick={() => changeFunction("AboutMe")}
-        className={currentPage === "AboutMe" ? "nav-link col-2 active" : "nav-link col-2"}
+        onClick={() => changeFunction("Home")}
+        className={currentPage === "Home" ? "nav-link col-2 active" : "nav-link col-2"}
       >Home</a>
       </li>  
 

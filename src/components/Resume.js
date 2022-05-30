@@ -84,7 +84,7 @@ function Resume() {
     
             <div className="btn btn-primary" id="download">
                 <p> 
-                    <a id="resume-link" href="https://github.com/MaryiaVinogradova/Professional-Portfolio/blob/e5408456d740b1f00818900e284aea705f429590/Resume_MV_2022.pdf" download="Maryia Vinogradova">
+                    <a id="resume-link" href="https://github.com/MaryiaVinogradova/Portfolio/blob/088872602724270b63c29db444dd6f3170f17b50/Maryia%20Vinogradova_Full-stack_Jr_2022.pdf" download="Maryia Vinogradova">
                     Download Resume
                 </a>
                 </p>

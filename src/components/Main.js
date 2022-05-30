@@ -1,7 +1,7 @@
 import React from 'react';
 import { useState } from 'react';
 import Header from './Header';
-import AboutMe from './AboutMe';
+import Home from './Home';
 import Portfolio from './Portfolio';
 import Contact from './Contact';
 import Resume from './Resume';
@@ -11,7 +11,7 @@ import Footer from './Footer';
 const Main = () => {
 
 
-  const [content, setContent] = useState("AboutMe")
+  const [content, setContent] = useState("Home")
 
   const handleChange = (content) => {
     setContent(content)
@@ -21,8 +21,8 @@ const Main = () => {
 
 
   const renderSection = () => {
-    if (content === "AboutMe") {
-      return <AboutMe />
+    if (content === "Home") {
+      return <Home />
     } 
     else if (content === "Portfolio") {
       return <Portfolio hoverActive={hoverActive} setHoverActive={setHoverActive}
