@@ -72,8 +72,10 @@ function Contact() {
 
             <form>
                 <h2>Contact</h2>
-                <div className="form-holder">
+                
+             <div class="form-container">
 
+                <div className="form-holder">
                     <label htmlFor="name">Name:</label>
                     <br></br>
                     <input
@@ -86,6 +88,7 @@ function Contact() {
                         id="name"
                     />
                 </div>
+
                 <div className="form-holder">
                     <label htmlFor="email">Email address:</label>
                     <br></br>
@@ -100,6 +103,7 @@ function Contact() {
                     />
 
                 </div>
+
                 <div className="form-holder">
                     <label htmlFor="message">Message:</label>
                     <br></br>
@@ -113,6 +117,8 @@ function Contact() {
                         id="message"
                     />
                 </div>
+             </div>
+             
                 {renderMessage()}
                 <button
                     onClick={handleFormSubmit}

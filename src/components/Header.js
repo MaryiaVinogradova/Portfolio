@@ -4,57 +4,59 @@ import '../styles/Header.css';
 
 const headerStyle = {
     mainDiv: {
-      
-      backgroundSize: "cover",
-      justifyContent: 'left',
-      alignItems: 'center',
-
-
+      justifyContent: 'space-around',
+      textAlign: 'top',
   },
     anchors: {
-      fontSize: '20px',
       color: '#8e979b',
       textAlign: 'center',
+      padding: 0,
+      margin: 10,
+      alignItems: 'top',
   }
-
-
 }
 
 
 function Header({ currentPage, changeFunction }) {
   return (
-    <div class="container" id="gradient">
+<div class="container mainDiv" id="gradient">
 
-    <div className="header row align-items-left" style={headerStyle.mainDiv}>
+  <div class="mainDiv"> 
+    <div className="header" style={headerStyle.mainDiv}>
+      <ul class="navbar navbar-expand-sm  flex-row align-items-top" id="p-0">
+
+      <li class="b-nav-item">
       <a style={headerStyle.anchors}
         onClick={() => changeFunction("AboutMe")}
         className={currentPage === "AboutMe" ? "nav-link col-2 active" : "nav-link col-2"}
-      >About me</a>
+      >Home</a>
+      </li>  
 
+      <li class="b-nav-item ">
       <a style={headerStyle.anchors}
         onClick={() => changeFunction("Portfolio")}
         className={currentPage === "Portfolio" ? "nav-link col-2 active" : "nav-link col-2"}
       >Portfolio</a>
+      </li>
 
+      <li class="b-nav-item ">
       <a style={headerStyle.anchors}
         onClick={() => changeFunction("Contact")}
         className={currentPage === "Contact" ? "nav-link col-2 active" : "nav-link col-2"}
       >Contact</a>
-
+      </li>
+      
+      <li class="b-nav-item ">
       <a style={headerStyle.anchors}
         onClick={() => changeFunction("Resume")}
         className={currentPage === "Resume" ? "nav-link col-2 active" : "nav-link col-2"}
       >Resume</a>
+      </li>
+
+      </ul>
       </div>
-
-
-
-      {/* <h1 className=" col-4">
-        Maryia Vinogradova
-      </h1> */}
-
-
-    </div>
+  </div> 
+</div>
   );
 }
 
