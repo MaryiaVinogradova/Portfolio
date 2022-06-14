@@ -13,7 +13,7 @@
   This is a professional portfolio based on React.
 
 ## Installation & Usage
-  For installation and usage open VS code terminal and run `npm i`, `npm runn build`. After your dependences are installed - run `npm start` to see the portfolio page. 
+  For installation and usage open VS code terminal and run `npm i`. After your dependences are installed - run `npm start` to see the portfolio page where you can see my story, portfolio and resume. Or connect too me.
 
 ## License
   [MIT License](https://opensource.org/licenses/MIT)
