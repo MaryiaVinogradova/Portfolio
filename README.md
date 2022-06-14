@@ -26,4 +26,4 @@
 
 
   Link to repo:
-  [https://github.com/MaryiaVinogradova/E-Commerce-Back-End.git](https://github.com/MaryiaVinogradova/Portfolio.git)
+  (https://github.com/MaryiaVinogradova/Portfolio.git)
