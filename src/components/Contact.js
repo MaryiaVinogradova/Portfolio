@@ -6,9 +6,6 @@ import { validateEmail } from '../utils/validateEmail'
 
 function Contact() {
 
-
-
-
     const [name, setName] = useState('');
     const [email, setEmail] = useState('');
     const [message, setMessage] = useState('')

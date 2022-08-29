@@ -1,27 +1,6 @@
-body{
-  background-color: rgb(240 246 196)
-}
-
-.container{
-  justify-content: center;
-  justify-content: center;
-  max-width: 75%;
-
-}
-
-.row{
-  justify-content: space-around;
-}
-
-#top{
-  padding-top: 20px;
-}
-
 #portfolio{
   display: block;
   justify-content: center;
-  background: linear-gradient(90deg, rgb(197 241 247) 70%, rgb(255, 255, 255) 100%);
-  max-width: 75%;
   min-height: 100%;
   margin-bottom: 0;
   padding-bottom: 80px;
@@ -29,22 +8,22 @@ body{
   min-height: fit-content;
 }
 
-.card{
-  width: 400px;
-  height: fit-content;
-  margin-right: 10px;
-  margin-left: 10px;
-  margin-bottom: 20px;
+.row{
+  margin-top: 5rem;
+  margin-bottom: 5rem;
 }
 
-.h-100{
-  max-width: fit-content;
-  margin-top: 20px;
+.text{
+  font-size: small;
 }
 
 #card-img {
-  width: auto;
   height: auto;
+  width: 100%;
+}
+
+#padding{
+  padding: 0;
 }
 
 .portfolio-title {
@@ -95,42 +74,3 @@ body{
   opacity: 1;
 }
 
-@media (min-width: 972px){
-  .card-header{
-    padding: 10px;
-    background-color: #ced4da;
-    font-size: 1.5rem;
-  
-  }
-
-}
-
-@media (max-width: 972px){
-  .card-header{
-    padding: 10px;
-    background-color: #ced4da;
-    font-size: 1rem;
-  
-  }
-
-}
-
-@media (min-width: 375px){
-  .card-header{
-    padding: 10px;
-    background-color: #ced4da;
-    font-size: 0.8rem;
-  
-  }
-
-}
-
-@media (max-width: 375px){
-  .card-header{
-    padding: 10px;
-    background-color: #ced4da;
-    font-size: 0.8rem;
-  
-  }
-
-}

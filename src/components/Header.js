@@ -1,61 +1,54 @@
 import React from 'react';
 import '../styles/Header.css';
 
+import { FaLinkedinIn } from "react-icons/fa";
+import { FaGithub } from "react-icons/fa";
+
 
 const headerStyle = {
-    mainDiv: {
-      justifyContent: 'space-around',
-      textAlign: 'top',
-  },
     anchors: {
       color: '#8e979b',
       textAlign: 'center',
       padding: 0,
-      margin: 10,
-      alignItems: 'top',
-  }
+      margin: 0,
+  
+  },
+  
 }
 
 
-function Header({ currentPage, changeFunction }) {
+function Header() {
   return (
-<div class="container mainDiv" id="gradient">
+<div className="mainDiv container d-flex p-0 " id="top-heather">
 
-  <div class="mainDiv"> 
-    <div className="header" style={headerStyle.mainDiv}>
-      <ul class="navbar navbar-expand-sm  flex-row align-items-top" id="p-0">
+    <div className="header col-9 p-0" style={headerStyle.mainDiv}>
 
+      <div className='p-0 navbar navbar-expand-sm flex-row align-items-top'>
+      <li class="b-nav-item" id="margin">
+      <div className="btn btn-primary" id="download">
+                <p id="margin"> 
+                    <a id="link-color" href="https://github.com/Maryia Vinogradova_Full-stack_Jr_2022.pdf" download="Maryia Vinogradova">
+                    DOWNLOAD RESUME
+                </a>
+                </p>
+            </div>
+      </li>
+
+  
       <li class="b-nav-item">
-      <a style={headerStyle.anchors}
-        onClick={() => changeFunction("Home")}
-        className={currentPage === "Home" ? "nav-link col-2 active" : "nav-link col-2"}
-      >Home</a>
-      </li>  
+        <a style={headerStyle.anchors} className="link" href="https://www.linkedin.com/in/maryiavinogradova/"
+                target="_blank "><i className="bi" id="icon">
+                  <FaLinkedinIn></FaLinkedinIn>
+                  </i></a>
+        </li>
 
-      <li class="b-nav-item ">
-      <a style={headerStyle.anchors}
-        onClick={() => changeFunction("Portfolio")}
-        className={currentPage === "Portfolio" ? "nav-link col-2 active" : "nav-link col-2"}
-      >Portfolio</a>
-      </li>
-
-      <li class="b-nav-item ">
-      <a style={headerStyle.anchors}
-        onClick={() => changeFunction("Contact")}
-        className={currentPage === "Contact" ? "nav-link col-2 active" : "nav-link col-2"}
-      >Contact</a>
-      </li>
-      
-      <li class="b-nav-item ">
-      <a style={headerStyle.anchors}
-        onClick={() => changeFunction("Resume")}
-        className={currentPage === "Resume" ? "nav-link col-2 active" : "nav-link col-2"}
-      >Resume</a>
-      </li>
-
-      </ul>
+        <li class="b-nav-item ">
+        <a style={headerStyle.anchors} className="link " href="https://github.com/MaryiaVinogradova" target="_blank "><i className="bi" id="icon">
+          <FaGithub></FaGithub>
+          </i></a>
+        </li>
+        </div>
       </div>
-  </div> 
 </div>
   );
 }
