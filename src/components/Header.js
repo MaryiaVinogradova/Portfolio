@@ -25,7 +25,7 @@ function Header() {
       <li class="b-nav-item" id="margin">
         <div className="btn btn-primary" id="download">
           <p id="margin"> 
-          <a id="link-color" href="Vhttps://github.com/MaryiaVinogradova/Portfolio/blob/e4ca1991f56250eb8717f1b0b31f54220b130441/MARYIA%20VINOGRADOVA_SOFTWARE%20DEVELOPER%20RESUME.pdf" download="Maryia Vinogradova">
+          <a id="link-color" href="..//../MARYIA VINOGRADOVA_SOFTWARE DEVELOPER RESUME.pdf" download="Maryia Vinogradova">
                     DOWNLOAD RESUME
           </a>
           </p>
