@@ -64,11 +64,8 @@ function Contact() {
 
 
     return (
-        <div id="contact" className="container">
-
-
+        <div className="container p-0 m-0" id="contact">
             <form>
-                <h2>Contact</h2>
                 
              <div class="form-container">
 
@@ -125,12 +122,7 @@ function Contact() {
                 >
                     Submit
                 </button>
-
-
-
             </form>
-
-
         </div>
     );
 }

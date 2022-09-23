@@ -1,8 +1,7 @@
 html, body{
-  margin: 0;
   height: 100%;
-  width: 100%;;
   padding: 0;
+  margin: 1rem;
 }
 
 #root{
@@ -17,8 +16,6 @@ html, body{
 }
 
 .container{
-  padding: 0px;
-  margin: 0px;
   width: 100%;
 }
 
@@ -32,9 +29,15 @@ html, body{
 
 }
 
-tr .align-me {
+#head-skills{
+  font-size: 1.5vw;
+  justify-content: flex-end;
+  align-items: flex-start;
   display: flex;
-  align-items: center;
+  flex-wrap: wrap;
+  margin: 0;
+  color: black;
+
 }
 
 .d-flex {
@@ -56,9 +59,11 @@ tr .align-me {
 
 .sidebar{
   position: fixed;
+  top: 80%;
   max-width: fit-content;
   padding-left: 2%;
-  z-index: 1;
+  z-index: 2;
+  display: block;
 }
 
 ul{
@@ -76,14 +81,14 @@ li {
   color: black;
   font-family: 'Oswald' sans-serif;
   display: flex;
-  flex-wrap: wrap;
+  flex-direction: column;
+  justify-content: flex-start;
+  align-items: flex-end;
+  margin: 0;
+  white-space: nowrap;
 
 }
 
-.b-nav-item{
-  font-family: 'Oswald', sans-serif;
-  margin-left: 1%;
-}
 
 .sticky{
   justify-content: center;
@@ -94,9 +99,9 @@ li {
 
 #maryia{
   color: rgb(148 105 87);
-  font-family: 'MuseoModerno' serif;
+  font-family: 'Montserrat', sans-serif;
   font-weight: bold;
-  font-size: 6vw;
+  font-size: 5vw;
   text-shadow: -1px -1px 2px grey;
   text-align: right;
 
@@ -116,7 +121,7 @@ li {
   color: rgb(0, 0, 0);
   font-family: 'MuseoModerno' serif;
   font-weight: bold;
-  font-size: 2.5vw;
+  font-size: 2vw;
   text-shadow: -1px -1px 2px grey;
   text-align: right;
 
@@ -141,6 +146,7 @@ li {
   position: relative;
   right: -2rem;
   display: flex;
+  padding-left: 1rem;
 
 }
 
@@ -177,40 +183,48 @@ li {
   align-items: center;
 }
 
-#vertical{
-  display: flex;
-  justify-content: flex-end;
-
-}
-
 #about{
-  font-size: 3.5vw;
+  font-size: 2.5vw;
   align-items: center;
   text-align: right;
+  color: black;
+  padding: 0;
 
 }
 
-#skills{
-  background-color: rgb(255 234 224);
-  font-size: xx-large;
+#school{
+  font-size: 2.5vw;
   align-items: center;
   text-align: right;
+  color: black;
+  padding: 0;
+
 }
 
-#work{
-  font-size: 4vw;
+#about-pd-10{
+  font-size: 2.5vw;
   align-items: center;
   text-align: right;
+  color: black;
+  padding-right: 10%;
+  margin-bottom: 8%;
+
+}
+
+.pd-10{
+  padding-right: 10%;
 }
 
 #education{
-  font-size: 4vw;
+  font-size: 1.5vw;
   align-items: center;
-  text-align: right;
+  text-align: left;
 }
 
 .col-7{
   text-align: left;
+  font-size: 2vw;
+
 }
 
 .col-1{
@@ -218,19 +232,15 @@ li {
   border-color: black;
   justify-content: center;
   align-items: flex-end;
-  display: flex;
   flex-wrap: wrap;
-}
-
-.col-10{
-  display: flex;
-  flex-wrap: wrap;
-  max-width: fit-content;
 }
 
 .col-9{
-  width: 100%;
   justify-content: flex-end;
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+
 }
 
 #image{
@@ -273,4 +283,144 @@ li {
   position: relative;
   align-items: center;
   justify-content: center;
+}
+
+#icon-side{
+  width: 3rem;
+  height: auto;
+  justify-content: center;
+  align-items: center;
+
+}
+
+#icon-small{
+  justify-content: center;
+  align-items: flex-start;
+  display: flex;
+}
+
+#col-4{
+  display: flex;
+  flex-wrap: nowrap;
+  align-items: center;
+}
+
+#inline{
+  display: flex;
+  flex-wrap: nowrap;
+  justify-content: space-between;
+}
+
+#lang{
+  font-size: 1vw;
+  justify-content: flex-start;
+  align-items: flex-end;
+  display: flex;
+  flex-direction: column;
+
+}
+
+#tech{
+  font-size: 1vw;
+  display: flex;
+  flex-direction: column;
+  flex-wrap: wrap;
+  justify-content: flex-start;
+  align-items: flex-end;
+
+}
+
+#concepts{
+  font-size: 1vw;
+  display: flex;
+  flex-direction: column;
+  flex-wrap: wrap;
+  justify-content: flex-start;
+  align-items: flex-end;
+
+}
+
+#skills-head{
+  color: grey;
+  font-size: 3vw;
+  padding: 1rem,0,0,0;
+  margin: 0;
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  align-items: center;
+  float: right;
+}
+
+#color{
+  color: rgb(0, 0, 0);
+
+}
+
+#side-skills{
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: flex-end;
+
+}
+
+#skills{
+  font-size: 3vw;
+  background-color: rgb(254 234 223); 
+  justify-content: center;
+  align-items: center;
+  display: flex;
+  justify-content: flex-end;
+  padding-right: 10%;
+  margin-bottom: 10%;
+}
+
+@media (max-width: 375px){
+
+  #lang{
+    font-size: 1.5vw;
+  
+  }
+
+  #concepts{
+    font-size: 1.5vw;
+  
+  }
+
+  #lang{
+    font-size: 1.5vw;
+  
+  }
+  
+  #icon-side{
+    width: 2rem;
+  
+  }
+
+  
+}
+
+@media (max-width: 820px){
+
+  #lang{
+    font-size: 1.5vw;
+  
+  }
+
+  #tech{
+    font-size: 1.5vw;
+  
+  }
+
+  #concepts{
+    font-size: 1.5vw;
+  
+  }
+
+  #icon-side{
+    width: 2rem;
+  
+  }
+
+  
 }

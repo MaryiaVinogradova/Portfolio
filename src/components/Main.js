@@ -26,9 +26,6 @@ const Main = () => {
 
   return (
     <>
-      {/* <Header
-        currentPage={content} changeFunction={handleChange}
-      /> */}
       {renderSection()}
       <Footer />
     </>
