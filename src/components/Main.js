@@ -1,6 +1,5 @@
 import React from 'react';
 import { useState } from 'react';
-import Header from './Header';
 import Home from './Home';
 import Resume from './Resume';
 import Footer from './Footer';
