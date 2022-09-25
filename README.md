@@ -29,4 +29,4 @@
   (https://github.com/MaryiaVinogradova/Portfolio.git)
 
 Portfolio: 
-https://portfolio-react-mv.herokuapp.com/
+https://portfolio-mvinogradova.herokuapp.com/
